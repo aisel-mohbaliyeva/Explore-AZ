@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Search } from "lucide-react";
 import { City, CITIES } from "@/data/cities";
-import AzerbaijanMap from "@/components/ui/AzerbaijanMap";
-import CityModal from "@/components/ui/CityModal";
-import PlansPage from "@/components/ui/PlansPage";
+import AzerbaijanMap from "@/components/AzerbaijanMap";
+import CityModal from "@/components/CityModal";
+import PlansPage from "@/components/PlansPage";
 
 type FilterCategory = "all" | "touristPlaces" | "restaurants" | "hotels";
 
