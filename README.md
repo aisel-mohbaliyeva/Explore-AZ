@@ -1,4 +1,4 @@
-### Explore AZ 
+### Explore AZ – Azerbaijan Tourism Map
 
 
 ## | https://explore-az.vercel.app/ |
