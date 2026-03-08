@@ -1,7 +1,7 @@
 ### Explore AZ 
 
-## Sayta keçid et 
-| https://explore-az.vercel.app/ |
+
+## | https://explore-az.vercel.app/ |
 
 ---
 
