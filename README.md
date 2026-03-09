@@ -6,7 +6,7 @@
 
 ## Project Idea
 
-The idea for Explore AZ belongs to me, and I worked on this project with great enthusiasm. While building it, I applied the knowledge and skills I have learned so far and used artificial intelligence as a supportive tool during the development process.
+The idea for ## Explore AZ belongs to me, and I worked on this project with great enthusiasm. While building it, I applied the knowledge and skills I have learned so far and used artificial intelligence as a supportive tool during the development process.
 
 The main goal of this project is to help tourists visiting Azerbaijan explore the country more easily and discover its beautiful places. In the future, I plan to further develop this project, expand its features, and transform it into a mobile application.
 
