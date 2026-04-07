@@ -2,7 +2,7 @@
 
 Explore.az is a modern web app to discover Azerbaijan. It helps tourists and locals find cities, regions, places to visit, restaurants, hotels, and simple travel ideas.
 
-- **Live demo**: `https://explore-az.vercel.app`
+- **Live demo**: [https://explore-az.vercel.app](https://explore-az.vercel.app)
 
 ### Key features
 - Interactive Azerbaijan map with city details
