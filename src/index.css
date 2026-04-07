@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 5%;
+    --foreground: 220 30% 93%;
+
+    --card: 220 47% 9%;
+    --card-foreground: 220 30% 93%;
+
+    --popover: 220 47% 9%;
+    --popover-foreground: 220 30% 93%;
+
+    --primary: 38 78% 56%;
+    --primary-foreground: 222 47% 5%;
+
+    --secondary: 220 30% 20%;
+    --secondary-foreground: 220 20% 70%;
+
+    --muted: 220 25% 16%;
+    --muted-foreground: 220 18% 54%;
+
+    --accent: 220 25% 16%;
+    --accent-foreground: 220 30% 93%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 25% 16%;
+    --input: 220 25% 16%;
+    --ring: 38 78% 56%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --gold: 38 78% 56%;
+    --gold-light: 40 82% 72%;
+    --green: 152 55% 54%;
+    --blue: 213 60% 57%;
+    --red: 0 72% 56%;
+    --navy: 222 47% 5%;
+    --navy-light: 220 35% 12%;
+    --navy-lighter: 220 30% 20%;
+    --text-dim: 220 20% 58%;
+
+    --sidebar-background: 220 47% 9%;
+    --sidebar-foreground: 220 30% 93%;
+    --sidebar-primary: 38 78% 56%;
+    --sidebar-primary-foreground: 222 47% 5%;
+    --sidebar-accent: 220 25% 16%;
+    --sidebar-accent-foreground: 220 30% 93%;
+    --sidebar-border: 220 25% 16%;
+    --sidebar-ring: 38 78% 56%;
+  }
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Sora', sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: hsl(var(--background)); }
+::-webkit-scrollbar-thumb { background: hsl(var(--navy-lighter)); border-radius: 3px; }
+
+/* Animations */
+@keyframes pulse-ring {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0; transform: scale(2.2); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s ease forwards;
+}
+.animate-slide-up {
+  animation: slideUp 0.4s ease forwards;
+}
+.pulse-animation {
+  animation: pulse-ring 1.2s infinite;
+}
