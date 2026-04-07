@@ -1,39 +1,29 @@
-### Explore AZ – Azerbaijan Tourism Map
+## Explore.az
 
-## 🚀 Live Demo
-## [View Live Project](https://explore-az.vercel.app) 🔗 
----
+Explore.az is a modern web app to discover Azerbaijan. It helps tourists and locals find cities, regions, places to visit, restaurants, hotels, and simple travel ideas.
 
-## Project Idea
+- **Live demo**: `https://explore-az.vercel.app`
 
-The idea for Explore AZ belongs to me, and I worked on this project with great enthusiasm. While building it, I applied the knowledge and skills I have learned so far and used modern developer tools during the development process.
+### Key features
+- Interactive Azerbaijan map with city details
+- Language switch (AZ / EN / RU)
+- Search, region filter, and favorites
+- Travel plans and helpful sections (transport, tickets, FAQ, contact)
 
-The main goal of this project is to help tourists visiting Azerbaijan explore the country more easily and discover its beautiful places. In the future, I plan to further develop this project, expand its features, and transform it into a mobile application.
+### Tech stack
+- Vite + React + TypeScript
+- Tailwind CSS + shadcn/ui
+- React Router + TanStack Query
+- Vitest + Testing Library
 
-Currently, the prices and some descriptions in the project are written as placeholders. They will be updated, improved, and maintained regularly as the project evolves.
+### Run locally
+```bash
+npm install
+npm run dev
+```
 
-I believe that Explore AZ can become a very useful platform not only for tourists visiting Azerbaijan but also for local residents who want to discover more places in their own country.
-
----
-
-## Features
-
-Explore popular tourist destinations in Azerbaijan
-
-Clean and modern user interface
-
-Responsive design for different screen sizes
-
-Informative sections about locations
-
-Simple and user-friendly navigation
-
----
-
-## This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Build
+```bash
+npm run build
+npm run preview
+```
